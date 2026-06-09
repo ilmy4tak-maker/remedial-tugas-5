@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remedial Materi: Konektivitas Antar-Ruang dan Waktu</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 font-sans text-gray-800 min-h-screen py-10 px-4">
+
+    <!-- FORM TERHUBUNG LANGSUNG DENGAN ENDPOINT FORMSPREE -->
+    <form action="https://formspree.io/f/mwvjbpww" method="POST" class="max-w-3xl mx-auto bg-white rounded-xl shadow-md overflow-hidden p-6 md:p-8">
+        
+        <!-- HEADER -->
+        <header class="border-b pb-4 mb-6 text-center">
+            <h1 class="text-3xl font-bold text-emerald-600">Remedial: Konektivitas & Interaksi Keruangan</h1>
+            <p class="text-gray-500 mt-1">Jawablah pertanyaan essay mengenai konsep ruang, konektivitas, serta pengaruhnya terhadap aspek sosial-ekonomi</p>
+        </header>
+
+        <!-- INPUT IDENTITAS SISWA -->
+        <div class="mb-8 p-4 bg-emerald-50/50 rounded-xl border border-emerald-100 space-y-4">
+            <h2 class="text-md font-bold text-emerald-900 tracking-wide uppercase">Identitas Siswa</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div>
+                    <label class="block text-sm font-semibold text-gray-700 mb-1">Nama Lengkap:</label>
+                    <input type="text" name="Nama_Lengkap" placeholder="Ketik nama lengkap Anda" required class="w-full p-2.5 bg-white border border-gray-300 rounded-lg focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500 outline-none transition">
+                </div>
+                <div>
+                    <label class="block text-sm font-semibold text-gray-700 mb-1">Kelas / No. Absen:</label>
+                    <input type="text" name="Kelas_Absen" placeholder="Contoh: X TSM 1 / 15" required class="w-full p-2.5 bg-white border border-gray-300 rounded-lg focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500 outline-none transition">
+                </div>
+            </div>
+        </div>
+
+        <!-- DAFTAR SOAL ESSAY -->
+        <div id="quiz-container" class="space-y-8">
+            
+            <!-- SOAL 1 -->
+            <div class="question-block border-b pb-6">
+                <h3 class="text-lg font-semibold mb-3">1. Setiap ruang di permukaan bumi memiliki karakteristik unik yang membedakannya dengan wilayah lain (aspek kewilayahan). Jelaskan bagaimana perbedaan karakteristik antar-ruang ini justru memicu terjadinya interaksi keruangan dalam bentuk pemenuhan kebutuhan ekonomi!</h3>
+                <div class="mt-2">
+                    <textarea name="Jawaban_Soal_1" rows="4" placeholder="Ketikkan jawaban essay Anda di sini..." required class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500 outline-none transition resize-y"></textarea>
+                </div>
+            </div>
+
+            <!-- SOAL 2 -->
+            <div class="question-block border-b pb-6">
+                <h3 class="text-lg font-semibold mb-3">2. Dalam konsep interaksi keruangan, dikenal adanya syarat 'Kemudahan Transfer' (Transferability) yang sangat dipengaruhi oleh ketersediaan infrastruktur transportasi dan jalan. Sebagai siswa SMK, analisis lah bagaimana kerusakan infrastruktur jalan atau gangguan moda transportasi dapat memengaruhi stabilitas harga barang di suatu wilayah!</h3>
+                <div class="mt-2">
+                    <textarea name="Jawaban_Soal_2" rows="4" placeholder="Ketikkan jawaban essay Anda di sini..." required class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500 outline-none transition resize-y"></textarea>
+                </div>
+            </div>
+
+            <!-- SOAL 3 -->
+            <div class="question-block border-b pb-6">
+                <h3 class="text-lg font-semibold mb-3">3. Interaksi keruangan tidak hanya terjadi secara fisik, tetapi juga melalui perpindahan informasi dan gagasan. Berikan analisis Anda mengenai peran teknologi digital (seperti internet dan e-commerce) dalam memotong batasan jarak dan waktu pada konektivitas antar-ruang saat ini!</h3>
+                <div class="mt-2">
+                    <textarea name="Jawaban_Soal_3" rows="4" placeholder="Ketikkan jawaban essay Anda di sini..." required class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500 outline-none transition resize-y"></textarea>
+                </div>
+            </div>
+
+            <!-- SOAL 4 -->
+            <div class="question-block border-b pb-6">
+                <h3 class="text-lg font-semibold mb-3">4. Interaksi spasial antara wilayah perdesaan (hinterland) dan perkotaan (kota) saling memengaruhi satu sama lain. Sebutkan dan jelaskan dampak positif serta dampak negatif yang dirasakan oleh wilayah perdesaan akibat adanya interaksi keruangan yang intensif dengan wilayah perkotaan!</h3>
+                <div class="mt-2">
+                    <textarea name="Jawaban_Soal_4" rows="4" placeholder="Ketikkan jawaban essay Anda di sini..." required class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500 outline-none transition resize-y"></textarea>
+                </div>
+            </div>
+
+            <!-- SOAL 5 -->
+            <div class="question-block pb-4">
+                <h3 class="text-lg font-semibold mb-3">5. Perkembangan konektivitas antar-ruang selalu berjalan beriringan dengan dimensi waktu (perubahan lintasan sejarah). Mengapa pemahaman mengenai aspek waktu sangat penting dalam mengamati perubahan fungsi lahan (misalnya dari lahan pertanian menjadi kawasan industri atau bengkel) di suatu wilayah? Jelaskan!</h3>
+                <div class="mt-2">
+                    <textarea name="Jawaban_Soal_5" rows="4" placeholder="Ketikkan jawaban essay Anda di sini..." required class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500 outline-none transition resize-y"></textarea>
+                </div>
+            </div>
+
+            <!-- TOMBOL KIRIM JAWABAN -->
+            <div class="text-center mt-6">
+                <button type="submit" class="w-full bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-3 px-6 rounded-lg shadow transition duration-200">
+                    Kirim Jawaban Essay
+                </button>
+            </div>
+        </div>
+    </form>
+
+</body>
+</html>
